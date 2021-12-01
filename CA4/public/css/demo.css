@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4f2222;
+    color: #f8f8ff;
+  }
+  
+  /* Style the side navigation */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 100;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+  }
+
+  /*make the active user text inherit style from container*/
+
+  .inbox__people{
+      color: white;
+      padding: 16px;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the content */
+  .content {
+    margin-left: 200px;
+    padding-left: 20px;
+  }
+
+nav{
+  width : 100%;
+  background-color: #222;
+}
+
+li {
+  list-style-type: none;
+  margin; 0;
+  font-size: 3vh;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  color: #f8f8ff
+}
+
+a.Link {
+    background-color: #4f1010;
+}
+
+a.active {
+  background-color: #6f2222
+}
+
+a:hover {
+    background-color: #333;
+    color: #f8f8ff
+}
+
+a.active:hover {
+  background-color: #4f1010
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 8px;
+  position: sticky;
+/*   An attempt to make a sticky nav bar */
+  top: 0;
+}
